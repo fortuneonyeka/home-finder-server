@@ -1,9 +1,10 @@
 import express from "express";
-import { createProperty,  } from "../controllers/propertyController.js";
+import { createProperty,getAllProperties  } from "../controllers/propertyController.js";
 
 const router = express.Router();
 
 router.post("/create", createProperty)
-router.get("/property",)
+router.get("/properties", getAllProperties)
+// router.get("/property", getAllProperties)
 
 export {router as propertyRoute} 
