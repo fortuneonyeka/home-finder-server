@@ -3,6 +3,7 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser";
 import cors from "cors"
 import { userRoute } from "./routes/userRoute.js";
+import { propertyRoute } from "./routes/propertyRoute.js";
 
  dotenv.config()
 
@@ -20,3 +21,4 @@ app.listen(PORT, () => {
 
 
 app.use('/api/user', userRoute )
+app.use('/api/property', propertyRoute )
