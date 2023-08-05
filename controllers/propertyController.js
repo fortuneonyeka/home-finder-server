@@ -48,3 +48,19 @@ export const getAllProperties = asyncHandler(async(req, res) => {
     // res.send(properties)
   
 })
+
+
+export const getProperty = asyncHandler(async(req, res) => {
+  const {id} = req.params
+  try {
+    const property = await prisma.property.findUnique({
+      where: {id}
+    });
+  res.status(200).json(property);
+  // res.send(properties)
+   
+  } catch (error) {
+    throw new Error(error.message)
+  }
+   
+})
