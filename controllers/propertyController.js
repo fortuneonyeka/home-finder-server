@@ -39,6 +39,7 @@ export const createProperty = asyncHandler(async (req, res) => {
   }
 });
 
+
 export const getAllProperties = asyncHandler(async(req, res) => {
   
     const properties = await prisma.property.findMany({
@@ -64,3 +65,18 @@ export const getProperty = asyncHandler(async(req, res) => {
   }
    
 })
+// export const updateProperty = asyncHandler(async(req, res) => {
+//   const {id} = req.params
+//   try {
+//     const updatedProperty = await prisma.property.update({
+//       where: {id},
+//       data: {data}
+//     });
+//   res.status(200).json(updatedProperty);
+//   // res.send(properties)
+   
+//   } catch (error) {
+//     throw new Error(error.message)
+//   }
+   
+// })

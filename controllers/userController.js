@@ -17,3 +17,32 @@ export const createUser = asyncHandler(async (req, res) => {
   }
   else res.status(201).send({message: `User exists already`})
 });
+
+export const bookInspection = asyncHandler(async(req, res) => {
+  const {email, date} = req.body
+
+  //id of the property to book inspection
+  const {id} =  req.params
+
+  try {
+    const alreadyBooked = await prisma.user.findUnique({
+       where: { email: email},  
+       select : {bookedInspection: true}
+      });
+    if (alreadyBooked.bookedInspection.some((inspection) => inspection.id === id)) {
+      res.status(404).json(({message: "You have already booked this property for inspection"}))
+    }
+    else {
+      await prisma.user.update({
+        where: {email: email},
+        data: {
+          bookedInspection: {push: {id, date}}
+        }
+      })
+      res.send("Inspection booked successfully")
+    }
+     
+  } catch (error) {
+    throw new Error(error.message)
+  }
+})
