@@ -39,10 +39,27 @@ export const bookInspection = asyncHandler(async(req, res) => {
           bookedInspection: {push: {id, date}}
         }
       })
-      res.send("Inspection booked successfully")
+      res.status(200).send("Inspection booked successfully")
     }
      
   } catch (error) {
     throw new Error(error.message)
   }
+})
+
+
+export const getAllBookings = asyncHandler(async(req, res) => {
+  
+const {email} = req.body
+
+try {
+  const bookings = await prisma.user.findUnique({
+      where: {email: email},
+      select: {bookedInspection: true}
+    })
+    res.status(200).send(bookings)
+
+} catch (error) {
+  throw new Error(error.message)
+}
 })
