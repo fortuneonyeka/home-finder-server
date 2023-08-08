@@ -63,3 +63,34 @@ try {
   throw new Error(error.message)
 }
 })
+
+
+export const cancelBooking = asyncHandler(async (req, res) => {
+  const {email} = req.body;
+  const {id} = req.params;
+
+  try {
+    const user = await prisma.user.findUnique({
+      where: {email:email},
+      select: {bookedInspection: true}
+    })
+
+    const index = user.bookedInspection.findIndex((inspect)=> inspect.id === id)
+
+    if (index === -1) {
+      res.status(404).json({message: "Booking not found"})
+    }
+    else {
+      user.bookedInspection.splice(index, 1)
+      await prisma.user.update({
+        where: {email},
+        data: {
+          bookedInspection: user.bookedInspection
+        }
+      })
+      res.send("Inspection booking canceled successfully!")
+    }
+  } catch (error) {
+    throw new Error(error.message)
+  }
+})
