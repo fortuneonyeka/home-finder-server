@@ -131,3 +131,20 @@ export const toFavorite = asyncHandler(async (req,res) => {
     throw new Error(error.message)
   }
 })
+
+
+export const allFavorites = asyncHandler( async (req, res) => {
+  const {email} = req.body;
+
+  try {
+    const allFavs = await prisma.user.findUnique({
+      where: {email},
+      select: {favResidenciesID: true}
+
+    })
+
+    res.status(200).send(allFavs)
+  } catch (error) {
+    throw new Error(error.message)
+  }
+})
