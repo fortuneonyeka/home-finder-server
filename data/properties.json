@@ -6,10 +6,35 @@
   "title": "Sunny Meadow Cottage",
   "description": "Introducing an exquisite masterpiece of coastal living, prominently positioned along the pristine shoreline, this opulent residence embodies the pinnacle of luxury and tranquility. Nestled upon an expansive parcel of land, this beachfront abode presents an unparalleled blend of architectural magnificence and awe-inspiring natural beauty.",
   "price": 6000000,
+  "currency" : "$",
   "address": "Street 1",
   "city": "Chicago",
   "country": "US",
   "image": "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "userEmail": "ihedfortune@gmail.com",
+  "createdAt": {
+  "$date": "2023-04-14T10:38:48.762Z"
+  },
+  "updatedAt": {
+  "$date": "2023-04-14T10:38:48.762Z"
+  },
+  "facilities": {
+  "bathrooms": "6",
+  "parking": "3",
+  "bedrooms": "5"
+  }
+  },
+
+  {
+  
+  "title": "Meadow Cottage",
+  "description": "Introducing an exquisite masterpiece of coastal living, prominently positioned along the pristine shoreline, this opulent residence embodies the pinnacle of luxury and tranquility. Nestled upon an expansive parcel of land, this beachfront abode presents an unparalleled blend of architectural magnificence and awe-inspiring natural beauty.",
+  "price": 700000,
+  "currency" : "$",
+  "address": "Street 20",
+  "city": "New Jersy",
+  "country": "US",
+  "image": "https://images.pexels.com/photos/16655113/pexels-photo-16655113/free-photo-of-easton.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "userEmail": "ihedfortune@gmail.com",
   "createdAt": {
   "$date": "2023-04-14T10:38:48.762Z"
@@ -30,6 +55,7 @@
   "title": "Banana Island Villa",
   "description": "Impeccably designed to harmonize with its surroundings, the residence boasts an open-concept layout that seamlessly merges the indoor and outdoor spaces, providing panoramic vistas of the azure ocean from virtually every room. The grandeur of the living areas is accentuated by soaring ceilings, adorned with intricate detailing, while vast windows invite an abundance of natural light to dance upon the rich textures and meticulously chosen finishes that grace the interiors.",
   "price": 2000000,
+  "currency" : "$",
   "address": "Street 2",
   "city": "Lagos",
   "country": "Nigeria",
@@ -54,6 +80,7 @@
   "title": "The Presidential",
   "description": "A culinary haven awaits within the gourmet kitchen, where state-of-the-art appliances and bespoke cabinetry converge to create an epicurean's delight. Lavish bedrooms and spa-inspired en-suite bathrooms offer an oasis of comfort and serenity, while a private study provides a retreat for contemplation.",
   "price": 2000000,
+  "currency" : "$",
   "address": "Street 3",
   "city": "California",
   "country": "US",
@@ -77,7 +104,8 @@
   },
   "title": "Autumn Mist Cottage",
   "description": "Stepping outside, the meticulously landscaped grounds unfold into a haven of relaxation and entertainment, featuring a resplendent infinity pool that appears to merge with the ocean's horizon. Al fresco dining spaces, thoughtfully positioned, beckon for gatherings with friends and family, while direct beach access ensures an unimpeded connection to the tranquil sands and soothing tides.",
-  "price": 3800,
+  "price": 300000,
+  "currency" : "£",
   "address": "Street 4",
   "city": "London",
   "country": "United Kingdom",
@@ -102,6 +130,7 @@
   "title": "Rustic Pine Lodge",
   "description": "Stepping outside, the meticulously landscaped grounds unfold into a haven of relaxation and entertainment, featuring a resplendent infinity pool that appears to merge with the ocean's horizon. Al fresco dining spaces, thoughtfully positioned, beckon for gatherings with friends and family, while direct beach access ensures an unimpeded connection to the tranquil sands and soothing tides.",
   "price": 400000,
+  "currency" : "A$",
   "address": "Street 5",
   "city": "Sydney",
   "country": "Australia",
@@ -126,6 +155,7 @@
   "title": "Rolling Hills Retreat",
   "description": "This luxurious coastal estate transcends the boundaries of a mere residence, embodying a lifestyle of refined elegance and unsurpassed leisure. An invitation to experience coastal living at its most extraordinary, this residence stands as a testament to the art of living well, where each moment is enriched by the symphony of the sea and the allure of coastal enchantment.",
   "price": 2000000,
+  "currency" : "C$",
   "address": "Street 6",
   "city": "Toronto",
   "country": "Canada",
@@ -150,6 +180,7 @@
   "title": "Riverstone Manor",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 400000,
+  "currency" : "$",
   "address": "Street 7",
   "city": "Tampa",
   "country": "US",
@@ -175,6 +206,7 @@
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 150000,
   "address": "Street 8",
+  "currency" : "$",
   "city": "Denver",
   "country": "US",
   "image": "https://i.pinimg.com/originals/89/56/5c/89565c305737e1da2a1a5b62600fbcd4.jpg",
@@ -198,6 +230,7 @@
   "title": "Crimson Peak Chalet",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 120000,
+  "currency" : "C$",
   "address": "Street 9",
   "city": "Calgary",
   "country": "Canada",
@@ -222,6 +255,7 @@
   "title": "Cedar Ridge Ranch",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 120000,
+  "currency" : "$",
   "address": "Street 10",
   "city": " Texas",
   "country": "US",
@@ -246,6 +280,7 @@
   "title": "Modern Marvel Mansion",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 2000000,
+  "currency" : "$",
   "address": "Street 11",
   "city": "Abuja",
   "country": "Nigeria",
@@ -270,6 +305,7 @@
   "title": "Whispering Willow Estate",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 120000,
+  "currency" : " JP¥",
   "address": "Street 12",
   "city": "Tokyo",
   "country": "Japan",
@@ -294,6 +330,7 @@
   "title": "Blue Horizon Manor",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 150000,
+  "currency" : "ZA",
   "address": "Street 13",
   "city": "Cape Town",
   "country": "South Africa",
@@ -318,6 +355,7 @@
   "title": "Golden Fields Ranch",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 600000,
+  "currency" : "$",
   "address": "Street 14",
   "city": "Los Angeles",
   "country": "US",
@@ -342,6 +380,7 @@
   "title": "Asatti Garden City",
   "description": "Massive opportunity to build your dream home at the base of Mummy Mountain in the 3 C's school district. Home is currently updated and very livable if your plans are to build at a later date.* Bonus * to live hillside without hillside restrictions in the town of PV. Run don't walk to capture this needle in a hay stack.",
   "price": 2000000,
+  "currency" : "$",
   "address": "Street 15",
   "city": " New York",
   "country": "US",
@@ -359,6 +398,10 @@
     "bathrooms": "10"
   }
   },
+
+
+
+
   {
   "_id": {
   "$oid": "645cd0d8616ffb7ce699bb8e"
@@ -366,10 +409,11 @@
   "title": "Ocean Crest",
   "description": "Villa is a marvelous piece of luxury and Art. Decorated with two helipads, wide compartment, long sea view and astonishing paints make it more bold.",
   "price": 150000,
+  "currency" : "$",
   "address": "Street 16",
   "city": "Lagos",
   "country": "Nigeria",
-  "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1683804284/jlap7xq7owdsfb4tlsyt.png",
+  "image": "https://images.pexels.com/photos/1475938/pexels-photo-1475938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "facilities": {
   "bedrooms": 6,
   "parkings": 4,
@@ -383,6 +427,9 @@
   "$date": "2023-05-11T11:26:15.44Z"
   }
   },
+
+
+
   {
   "_id": {
   "$oid": "645e27938b90ba42adbed599"
@@ -390,10 +437,11 @@
   "title": "The Johnson Palace",
   "description": "This is an amazing place to live with all facilities around you",
   "price": 200000,
+  "currency" : "$",
   "address": "Street 17",
   "city": "New York",
   "country": "United States",
-  "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1683892030/eb99xugad9w3pswx7h3f.jpg",
+  "image": "https://images.pexels.com/photos/8134821/pexels-photo-8134821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "facilities": {
   "bedrooms": 2,
   "parkings": 1,
@@ -407,6 +455,10 @@
   "$date": "2023-05-12T11:48:35.028Z"
   }
   },
+
+
+
+
   {
   "_id": {
   "$oid": "6460802e05fa5b3fd0527f65"
@@ -414,10 +466,11 @@
   "title": "Evergreen Villa ",
   "description": "This is an exquisite ocean view, Banana island mansion",
   "price": 2000000,
+  "currency" : "$",
   "address": "Street 18",
   "city": "Lagos",
   "country": "Nigeria",
-  "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1684045778/zdc3pb1d0kgfwxuk8hch.jpg",
+  "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "facilities": {
   "bedrooms": 5,
   "parkings": 2,
@@ -431,17 +484,24 @@
   "$date": "2023-05-14T06:31:09.883Z"
   }
   },
+
+
+
+
+
+
   {
   "_id": {
   "$oid": "648a1ed5d52203e45f037608"
   },
-  "title": "Beautiful House",
+  "title": "Ocean View",
   "description": "This is a good home to live",
-  "price": 10000,
+  "price": 100000,
+  "currency" : "A$",
   "address": "Street 19",
   "city": "Melbourne",
   "country": "Australia",
-  "image": "https://res.cloudinary.com/dkg6ajfen/image/upload/v1686773421/ihdmmu9mjsors2rvlu4j.png",
+  "image": "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "facilities": {
   "bedrooms": 5,
   "parkings": 3,
