@@ -1,8 +1,8 @@
 import {auth} from "express-oauth2-jwt-bearer"
-
+const baseurl = process.env.REACT_APP_DOMAIN
 const jwtCheck = auth({
   audience: "http://localhost:4996",
-  issuerBaseURL: "https://dev-1l1xwyeleiwmn68i.us.auth0.com",
+  issuerBaseURL: `https://${baseurl}`,
   tokenSigningAlg: "RS256"
 })
 
