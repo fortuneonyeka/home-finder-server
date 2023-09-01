@@ -16,6 +16,6 @@ router.post("/bookInspection/:id",jwtCheck, bookInspection);
 router.post("/allBookings", getAllBookings);
 router.post("/cancelBooking/:id",jwtCheck, cancelBooking);
 router.post("/toFav/:propertyId",jwtCheck, toFavorite);
-router.post("/allFavs/:propertyId",jwtCheck, allFavorites);
+router.post("/allFavs",jwtCheck, allFavorites);
 
 export { router as userRoute };
