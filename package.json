@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "server": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "preinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.1.1",
